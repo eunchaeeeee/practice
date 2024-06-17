@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZIP_브리</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="board.css">
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Jua&display=swap" rel="stylesheet">
+
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#nav-menu">
+    <!-- 네비게이션 영역 시작 -->
+    <nav class="navbar navbar-expand-md bg-success-subtle navbar-white fixed-top">
+        <div class="container">
+      <!-- 로고 -->
+            <a class="bagel-fat-one-regula navbar-brand" href="../index.html">
+            ZIP_브리</a>
+      <!-- 로고 끝 -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto my-2">
+                    <li class="nav-item"><a class="nav-link" href="about.html">소개</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#attraction" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          PICK
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="choice.html">추천명소</a></li>
+                          <li><a class="dropdown-item" href="choice2.html">최신정보</a></li> 
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#board" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          게시판
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="board.html">일상 게시판</a></li>
+                          <li><a class="dropdown-item" href="board2.html">질문 게시판</a></li> 
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="login.html">로그인</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 네비게이션 영역 끝 -->
+
+    <!-- 헤더 -->>
+     <header id="home" class="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
+     </header>
+    <!-- 헤더 끝 -->
+
+    <!-- 게시판 섹션 -->
+    <table class="table table-hover table-striped text-center overflow-hidden py-5" style="border: 1px solid" id="board">
+        <div class="container py-5">
+          <br>
+          <h2 class="text-center">질문 게시판</h2>
+          <br>
+          <br>
+      
+            <thead>
+              <tr>
+                <th>번호</th>
+                <th>제목</th>
+                <th>글쓴이</th>
+                <th>조회수</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>[지브리파크] 지브리의 대창고 예약 궁금합니다.</td>
+                <td>트레블러</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>[영화] 그어살 영화관 걸려있는 곳 있나요?</td>
+                <td>민첩한하루</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>[굿즈] 그어살 굿즈 목록이 궁금합니다.</td>
+                <td>대머리왜가리</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>[지브리미술관] 가보신 분들의 의견 부탁드립니다.</td>
+                <td>예술지망생</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>[굿즈] 고양이버스행선지 키링 재입고 될까요?</td>
+                <td>고양이집사</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>[지브리파크] 대창고에서 상영되는 영화는 한글 자막이 있나요?</td>
+                <td>monolingual</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>[질문] 커뮤니티 규칙이 있나요?</td>
+                <td>암어노비스</td>
+                <td>45</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>[영화] 센과 치히로의 행방불명은 왓챠에서도 볼 수 있나요?</td>
+                <td>ott중독</td>
+                <td>55</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>[코리코카페] 지지 오브제 구매하신 분의 의견을 기다립니다.</td>
+                <td>고양이수집가</td>
+                <td>70</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>[굿즈] 지브리 입체건축전 도록 구매처가 궁금합니다.</td>
+                <td>건축가</td>
+                <td>80</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      
+        <hr>
+        <div>
+          <ul class="pagination justify-content-center">
+            <li><a href="#" style="margin-right:5px;" class="test-secondary text-dark">◀</a></li>
+            <li><a href="#" style="margin-right:5px;" class="test-secondary text-dark">1</a></li>
+            <li><a href="#" style="margin-right:5px;" class="test-secondary text-dark">2</a></li>
+            <li><a href="#" style="margin-right:5px;" class="test-secondary text-dark">3</a></li>
+            <li><a href="#" style="margin-right:5px;" class="test-secondary text-dark">4</a></li>
+            <li><a href="#" style="margin-right:5px;" class="test-secondary text-dark">5</a></li>
+            <li><a href="#" style="margin-right:5px;" class="test-secondary text-dark">▶</a></li>
+          </ul>
+        </div>
+        <button onclick="location.href='write.html'">글쓰기</button>
+        <!-- 게시판 섹션 끝 -->
+      
+    <!-- 풋터 시작 -->
+    <footer class="bg-success-subtle text-dark">
+      <div class="container text-center">
+          <p class="py-4 mb-0">Copyright <i class="bi bi-c-circle"></i> 2024 Designed by <a
+                  href="update.html" target="_blank"
+                  class="bagel-fat-one-regula link-success text-decoration-none">ZIP_브리
+                  </a></p>
+      </div>
+    </footer>
+    <!-- 풋터 끝 -->
+    <a class="btn btn-warning" role="button" style="display:scroll;position:fixed;bottom:10px;right:5px;" href="#"  title="top">TOP</a> 
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
